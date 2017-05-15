@@ -1,4 +1,4 @@
-VENDOR_WV_PATH := vendor/widevine/arm-generic
+VENDOR_WV_PATH := vendor/widevine/arm-generic/proprietary
 
 PRODUCT_COPY_FILES += \
     $(VENDOR_WV_PATH)/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
